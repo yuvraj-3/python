@@ -12,10 +12,15 @@ print(nums)
 print(new)
 print(len(new))"""
 
-k = 0  # Pointer for the new position
+'''k = 0  # Pointer for the new position
 for i in range(len(nums)):
     if nums[i] != val:
         nums[k] = nums[i]
         k += 1
 
-print(k)
+print(k)'''
+
+while val in nums:
+    nums.remove(val)
+            
+print( len(nums))
