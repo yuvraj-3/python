@@ -9,7 +9,7 @@ def palindrome(n):
     return a==n
 print(palindrome(121))
 
-# reverse intiger
+# reverse intigers
 class Solution:
     def reverse(self, x):
         sign = -1 if x < 0 else 1  
