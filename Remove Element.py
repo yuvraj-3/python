@@ -22,5 +22,5 @@ print(k)'''
 
 while val in nums:
     nums.remove(val)
-            
+print(nums)          
 print( len(nums))
